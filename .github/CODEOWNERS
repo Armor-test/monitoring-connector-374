@@ -1,0 +1,42 @@
+# CODEOWNERS file for monitoring-connector-374
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/dept-reliability @Armor-test/dept-automation
+
+# Directory ownership
+/lib/ @Armor-test/unit-test @Armor-test/squad-search @Armor-test/dept-security
+/dist/ @Armor-test/grp-api @Armor-test/grp-storage
+/assets/ @Armor-test/grp-integration @Armor-test/squad-mobile
+/internal/ @Armor-test/dept-api @Armor-test/squad-ux @Armor-test/squad-payments
+/tools/ @Armor-test/squad-performance @Armor-test/squad-frontend
+/src/ @Armor-test/squad-payments @Armor-test/squad-performance @Armor-test/dept-logging
+/models/ @Armor-test/team-logging @Armor-test/squad-database
+/tests/ @Armor-test/squad-research @Armor-test/dept-notifications
+/plugins/ @Armor-test/team-frontend @Armor-test/squad-api @Armor-test/squad-research
+/pkg/ @Armor-test/dept-identity @Armor-test/squad-mobile @Armor-test/squad-apps
+/docs/ @Armor-test/dept-billing @Armor-test/team-reporting @Armor-test/team-core
+/core/ @Armor-test/dept-billing @Armor-test/team-reporting
+/deploy/ @Armor-test/grp-payments @Armor-test/dept-reporting
+/migrations/ @Armor-test/grp-api @Armor-test/grp-reporting
+/components/ @Armor-test/squad-search @Armor-test/team-notifications
+
+# File type ownership
+*.graphql @Armor-test/squad-qa @Armor-test/unit-design @Armor-test/unit-governance
+*.xml @Armor-test/squad-tooling @Armor-test/team-security @Armor-test/dept-api
+*.yaml @Armor-test/unit-test @Armor-test/squad-qa
+*.ini @Armor-test/unit-design @Armor-test/squad-qa
+*.h @Armor-test/squad-database @Armor-test/dept-reporting @Armor-test/dept-release
+*.config @Armor-test/team-notifications @Armor-test/dept-security @Armor-test/team-core
+*.sql @Armor-test/dept-notifications @Armor-test/unit-devops @Armor-test/squad-tooling
+*.json @Armor-test/team-logging @Armor-test/squad-frontend
+*.tf @Armor-test/unit-test @Armor-test/team-core @Armor-test/team-frontend
+*.php @Armor-test/dept-ui @Armor-test/team-research @Armor-test/grp-search
+*.html @Armor-test/dept-test @Armor-test/squad-ux @Armor-test/team-security
+*.ts @Armor-test/grp-storage @Armor-test/dept-data @Armor-test/grp-reporting
+*.cs @Armor-test/grp-search @Armor-test/grp-integration
+*.go @Armor-test/squad-reporting @Armor-test/dept-api @Armor-test/squad-ml
+*.lock @Armor-test/dept-identity @Armor-test/squad-search @Armor-test/squad-product
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
